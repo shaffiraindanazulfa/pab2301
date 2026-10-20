@@ -10,11 +10,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PAB_2301">
+        android:theme="@style/Theme.KreasiKita">
 
         <activity
             android:name=".MainActivity"
             android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.KreasiKita"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,8 +28,9 @@
         <activity
             android:name=".DuaActivity"
             android:exported="false"
+            android:label="@string/title_konfirmasi"
+            android:theme="@style/Theme.KreasiKita"
             android:windowSoftInputMode="adjustResize" />
-
     </application>
 
 </manifest>

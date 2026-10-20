@@ -1,8 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FormKu</string>
-    <string name="app_description">Aplikasi Pendaftaran Peserta</string>
-    <string name="form_title">Formulir Pendaftaran Peserta</string>
-    <string name="summary_title">Ringkasan Pendaftaran</string>
-    <string name="nav_pendaftaran">Pendaftaran</string>
-    <string name="nav_ringkasan">Ringkasan</string>
+    <string name="app_name">KreasiKita</string>
+    <string name="app_subtitle">Pendaftaran Workshop Kreatif</string>
+    <string name="form_title">Formulir Pendaftaran Workshop</string>
+    <string name="form_description">Isi data diri Anda dengan benar untuk mendaftar workshop kreatif KreasiKita.</string>
+
+    <!-- Progress -->
+    <string name="form_progress">Kelengkapan Form: %1$d%%</string>
+
+    <!-- Field Labels -->
+    <string name="label_nama">Nama Lengkap *</string>
+    <string name="label_email">Alamat Email *</string>
+    <string name="label_whatsapp">Nomor WhatsApp *</string>
+    <string name="label_kategori">Kategori Peserta *</string>
+
+    <string name="category_mahasiswa">Mahasiswa</string>
+    <string name="category_pelajar">Pelajar</string>
+    <string name="category_umum">Umum</string>
+
+    <string name="label_workshop">Pilihan Workshop *</string>
+    <string name="label_kota">Kota Asal *</string>
+
+    <string name="format_pengalaman">Level %1$d / 10 (%2$s)</string>
+    <string name="exp_level_pemula">Pemula</string>
+    <string name="exp_level_menengah">Menengah</string>
+    <string name="exp_level_mahir">Mahir</string>
+
+    <!-- Buttons -->
+    <string name="btn_daftar">Daftar Sekarang</string>
+    <string name="btn_reset">Reset Form</string>
+
+    <!-- Confirmation Screen Strings -->
+    <string name="title_konfirmasi">Konfirmasi Pendaftaran</string>
+    <string name="subtitle_konfirmasi">Pendaftaran Berhasil Disiapkan!</string>
+    <string name="desc_konfirmasi">Silakan periksa kembali rincian data pendaftaran Anda di bawah ini sebelum melanjutkan.</string>
+    <string name="card_title_summary">Ringkasan Data Peserta</string>
+
+    <string name="confirm_nama">Nama Lengkap</string>
+    <string name="confirm_email">Email</string>
+    <string name="confirm_whatsapp">Nomor WhatsApp</string>
+    <string name="confirm_kategori">Kategori Peserta</string>
+    <string name="confirm_workshop">Workshop</string>
+    <string name="confirm_kota">Kota Asal</string>
+    <string name="confirm_tanggal">Tanggal Workshop</string>
+    <string name="confirm_pengalaman">Tingkat Pengalaman</string>
+    <string name="confirm_pengingat">Status Pengingat</string>
+
+    <string name="reminder_active">Aktif (Notifikasi WA/Email)</string>
+    <string name="reminder_inactive">Tidak Aktif</string>
+
+    <string name="btn_kembali">Kembali (Edit Data)</string>
+    <string name="btn_selesai">Selesai</string>
+
+    <!-- Toast & Error Messages -->
+    <string name="toast_form_reset">Formulir pendaftaran berhasil di-reset.</string>
+    <string name="toast_registration_completed">Pendaftaran selesai! Terima kasih telah mendaftar.</string>
+    <string name="err_nama_required">Nama lengkap wajib diisi!</string>
+    <string name="err_email_required">Alamat email wajib diisi!</string>
+    <string name="err_email_invalid">Format alamat email tidak valid!</string>
+    <string name="err_wa_required">Nomor WhatsApp wajib diisi!</string>
+    <string name="err_kategori_required">Harap pilih kategori peserta!</string>
+    <string name="err_workshop_required">Harap pilih workshop yang ingin diikuti!</string>
+    <string name="err_kota_required">Harap pilih kota asal Anda!</string>
+    <string name="no_data_passed">Tidak ada data pendaftaran ditemukan.</string>
+
+    <!-- Spinner Option Arrays -->
+    <string-array name="array_workshop">
+        <item>-- Pilih Workshop --</item>
+        <item>UI/UX Design Masterclass</item>
+        <item>Fotografi &amp; Visual Storytelling</item>
+        <item>Ilustrasi Digital &amp; Character Design</item>
+        <item>Digital Marketing &amp; Branding Strategy</item>
+    </string-array>
+
+    <string-array name="array_kota">
+        <item>-- Pilih Kota Asal --</item>
+        <item>Jakarta</item>
+        <item>Bandung</item>
+        <item>Surabaya</item>
+        <item>Yogyakarta</item>
+        <item>Semarang</item>
+        <item>Medan</item>
+        <item>Makassar</item>
+        <item>Lainnya</item>
+    </string-array>
 </resources>

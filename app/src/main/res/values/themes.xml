@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Theme.KreasiKita" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryVariant">@color/purple_primary_dark</item>
+        <item name="colorOnPrimary">@color/purple_on_primary</item>
 
-    <style name="Theme.PAB_2301" parent="android:Theme.Material.Light.NoActionBar" />
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/purple_accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Background & Surface -->
+        <item name="android:windowBackground">@color/bg_light_cream</item>
+        <item name="android:statusBarColor">@color/purple_primary_dark</item>
+    </style>
+
+    <!-- Compatibility Theme alias for template -->
+    <style name="Theme.TugasPAB" parent="Theme.KreasiKita" />
 </resources>

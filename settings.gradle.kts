@@ -22,5 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PAB_2301"
+rootProject.name = "TugasPAB"
 include(":app")
+ 
