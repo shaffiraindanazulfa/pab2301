@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FormKu</string>
+    <string name="app_description">Aplikasi Pendaftaran Peserta</string>
+    <string name="form_title">Formulir Pendaftaran Peserta</string>
+    <string name="summary_title">Ringkasan Pendaftaran</string>
+    <string name="nav_pendaftaran">Pendaftaran</string>
+    <string name="nav_ringkasan">Ringkasan</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Theme Colors (Teal / Bluish Green) -->
+    <color name="teal_primary">#00796B</color>
+    <color name="teal_dark">#004D40</color>
+    <color name="teal_light">#E0F2F1</color>
+    <color name="teal_accent">#009688</color>
+    <color name="teal_medium">#26A69A</color>
+
+    <!-- Neutral Colors -->
+    <color name="bg_app">#F4F6F8</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#616161</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="input_bg">#FAFAFA</color>
+    <color name="border_color">#E0E0E0</color>
+
+    <!-- Status Colors -->
+    <color name="error_red">#D32F2F</color>
+    <color name="success_green">#388E3C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
